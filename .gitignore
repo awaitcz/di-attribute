@@ -1,0 +1,15 @@
+# IDE
+/.idea
+
+# Composer
+/vendor
+/composer.lock
+/temp
+
+# Tests
+/tests/tmp
+/coverage.*
+/tests/**/*.log
+/tests/**/*.html
+/tests/**/*.expected
+/tests/**/*.actual
