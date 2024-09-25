@@ -33,8 +33,8 @@ final class DiAttributeExtension extends Nette\DI\CompilerExtension
 
 		// Process resources
 		$this->discoveredServices = $this->findClassesForRegistration(
-			$config->resources->paths,
-			$config->resources->excludes,
+			$config->paths,
+			$config->excludes,
 		);
 	}
 
